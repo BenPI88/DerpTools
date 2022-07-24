@@ -12,6 +12,6 @@ input("")
 print("Copying Files...")
 i = 0
 os.system("cd ~ && mkdir DerpTools")
-while not i = len(files):
+while not i == len(files):
   os.system("cp " + str(files[i]) + " ~/DerpTools")
   i = i + 1

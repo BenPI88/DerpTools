@@ -1,7 +1,7 @@
 import os
 files = []
 
-for file in os.listdir("~/derptools-tmp/DerpTools"):
+for file in os.listdir(~/derptools-tmp/DerpTools):
   if file == "slfcpy.py":
     continue
   if os.path.isfile(file):

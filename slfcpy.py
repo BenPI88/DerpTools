@@ -1,6 +1,6 @@
 import os
 files = []
-
+os.system("cd ~ && mkdir DerpTools")
 for file in os.listdir(~/derptools-tmp/DerpTools):
   if file == "slfcpy.py":
     continue
@@ -11,7 +11,6 @@ print("Press enter to verify that copying these files is ok with you.")
 input("")
 print("Copying Files...")
 i = 0
-os.system("cd ~ && mkdir DerpTools")
 while not i == len(files):
   os.system("cp " + str(files[i]) + " ~/DerpTools")
   i = i + 1
